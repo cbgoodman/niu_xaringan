@@ -12,11 +12,11 @@ All relevant files can be found in the `/assets/` folder. Minimially, `niu.css`,
 * A distribution of `R` - If you're here, I think that's a given. But just in case, grab the latest version [here](https://www.r-project.org).
 * RStudio IDE - `xaringan` uses RMarkdown and `knitr` so [RStudio](https://rstudio.com) is pretty much required.
 * `xaringan` - either from CRAN or the development version from Github.
-```
+```r
 install.packages(xaringan)
 ```
 or
-```
+```r
 devtools::install_github('yihui/xaringan')
 ```
 
@@ -24,7 +24,7 @@ devtools::install_github('yihui/xaringan')
 Include the following information in the YAML preamble to your presentation.
 
 Light theme:
-```
+```r
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -32,7 +32,7 @@ output:
 ```
 
 Dark theme:
-```
+```r
 output:
   xaringan::moon_reader:
     lib_dir: libs
