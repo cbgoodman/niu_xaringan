@@ -198,7 +198,7 @@ th, td { padding: 5px; }
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url(NIU_horz_white.png);
+  background-image: url(https://raw.githubusercontent.com/cbgoodman/niu_xaringan/master/assets/NIU_horz_white.png);
   background-position: 95% 95%;
   background-size: 200px;
   background-color: #333333;
