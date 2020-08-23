@@ -1,6 +1,6 @@
 # NIU Xaringan
 
-A minimalist `xaringan` theme based on [Northern Illinois University](https://www.niu.edu)'s branding. There are two flavors
+A minimalist `xaringan` theme based on [Northern Illinois University](https://www.niu.edu)'s branding. There are two flavors:
 1. A light theme (`niu.css` and `niu-fonts.css`) suitable for viewing on the web and small in-person presentations
 2. A dark theme (`niudark.css` and `niudark-fonts.css`) suitable for projecting on large screens.
 
@@ -39,7 +39,7 @@ output:
     css: [default, "assets/niudark.css", "assets/niudark-fonts.css"]
 ```
 
-There are far more options that can be found in the example presentations [here]() for the light theme and [here]() for the dark theme.
+There are far more options that can be found in the example presentations [here](https://raw.githack.com/cbgoodman/niu_xaringan/master/light.html) for the light theme and [here](https://raw.githack.com/cbgoodman/niu_xaringan/master/dark.html) for the dark theme.
 
 ## Acknowledgements
 
