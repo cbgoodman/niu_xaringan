@@ -39,7 +39,7 @@ If you want the University Logo to show up on the title slide, you'll also need
 - `NIU_horz_white.png`
 ]
 
-These are available in the assets folder of the GitHub code repository [`r icon::fa("github")` `cbgoodman/niu_xaringan`](http://github.com/cbgoodman/niu_xaringan/assets)
+These are available in the assets folder of the GitHub code repository [`r icon::fa("github")` `cbgoodman/niu_xaringan`](https://github.com/cbgoodman/niu_xaringan/tree/master/assets)
 
 To make things easy to get started, I recommend downloading a copy of the `niu_xaringan` repo [`r icon::fa("file-archive")`](https://github.com/cbgoodman/niu_xaringan/archive/master.zip) and make changes to the template.
 
