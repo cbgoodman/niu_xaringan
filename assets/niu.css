@@ -1,0 +1,285 @@
+/*
+CSS for xaringan slides in NIU flavor
+Author: Christopher B. Goodman
+Updated: 2020-08-21
+*/
+
+.remark-slide-content {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+
+/* To specify the margin of the first title h1 */
+.remark-slide-content > h1:first-of-type {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.remark-slide-content > h2:first-of-type {
+  color: #c8102e;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.remark-slide-content > h3:first-of-type {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.remark-slide-content > h4:first-of-type {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* important code slightly red */
+.remark-code-line-highlighted {
+  background-color: #f9b7c1 !important;
+}
+
+/* use to position text at the bottom */
+.pull-down {
+  position: absolute;
+  bottom: 50px;
+}
+
+/******************
+ * Coloured content boxes
+ ****************/
+.content-box {
+    box-sizing: border-box;
+    background-color: #e2e2e2;
+}
+.content-box-blue,
+.content-box-gray,
+.content-box-grey,
+.content-box-army,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow {
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin: 0 0 15px;
+  overflow: hidden;
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+}
+.content-box-blue { background-color: #F0F8FF; }
+.content-box-gray { background-color: #e2e2e2; }
+.content-box-grey {	background-color: #F5F5F5; }
+.content-box-army {	background-color: #737a36; }
+.content-box-green { background-color: #d9edc2; }
+.content-box-purple { background-color: #e2e2f9; }
+.content-box-red { background-color: #ffcccc; }
+.content-box-yellow { background-color: #fef5c4; }
+.content-box-blue .remark-inline-code,
+.content-box-blue .remark-inline-code,
+.content-box-gray .remark-inline-code,
+.content-box-grey .remark-inline-code,
+.content-box-army .remark-inline-code,
+.content-box-green .remark-inline-code,
+.content-box-purple .remark-inline-code,
+.content-box-red .remark-inline-code,
+.content-box-yellow .remark-inline-code {
+  background: none;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+/* link color */
+a {
+  color: #A5A7A8;
+}
+
+.columns-2 {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+}
+
+.columns-21 {
+  -webkit-columns: 66%, 33%;
+  -moz-columns: 66%, 33%;
+  columns: 66%, 33%;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+}
+
+/* inline code background */
+.remark-inline-code {
+  /* until the link between code and mathjax
+  is broken, we need to use transparent */
+ background: transparent; /* #F5F5F5; /* lighter */
+ /* background: #e7e8e2; /* darker */
+ border-radius: 3px;
+ padding: 2px;
+}
+
+/* Change default inverse background color */
+.inverse {
+  background-color: #0148A4;
+  text-shadow: 0 0 20px #333;
+}
+.inverse .remark-slide-number {
+  display: none;
+}
+/* background colour classes */
+.niu-teal {
+  background-color: #00968F;
+  color: white;
+}
+.niu-yellow {
+  background-color: #FEDB00;
+}
+.niu-red {
+  background-color: #C8102E;
+  color: white;
+}
+
+/* segue */
+.segue {
+  text-align:center;
+  vertical-align: middle;
+  background-color: #C8102E;
+  color: #ffffff;
+  text-shadow: none;
+}
+.segue .remark-slide-number {
+  display: none;
+}
+
+.segue-teal {
+  text-align:center;
+  vertical-align: middle;
+  background-color: #00968F;
+  color: #ffffff;
+  text-shadow: none;
+}
+.segue-teal .remark-slide-number {
+  display: none;
+}
+
+.segue-yellow {
+  text-align:center;
+  vertical-align: middle;
+  background-color: #FEDB00;
+  color: #424242;
+  text-shadow: none;
+}
+.segue-yellow .remark-slide-number {
+  display: none;
+}
+
+/* Title slide */
+
+/* Add image and change bg color */
+.title-slide {
+  background-image: url(NIU_horz_4Clr.png);
+  background-position: 95% 95%;
+  background-size: 200px;
+  background-color: #fff;
+  /* padding-right: 100px;   delete this for 4:3 aspect ratio */
+}
+
+/* H1 fonts */
+.title-slide h1 {
+  color: #333333;
+  padding: 20px;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: left;
+  vertical-align: middle;
+  text-shadow: none;
+}
+
+/* H2 fonts */
+.title-slide h2 {
+  color: #333333 !important;
+  font-size: 35px;
+  text-align: left;
+  text-shadow: none;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/* H3 fonts */
+.title-slide h3 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #333333;
+  text-align: left;
+  text-shadow: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.2;
+}
+
+/* Remove slide count */
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~*/
+/* FINAL SLIDE      */
+/*~~~~~~~~~~~~~~~~~~*/
+
+.title-slide-final {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+}
+
+.title-slide-final h1 {
+  color: white;
+}
+
+.title-slide-final table {
+  margin: auto;
+  border-top: none;
+  border-bottom: none;
+}
+
+.title-slide-final table thead th { border-bottom: none; }
+.title-slide-final thead,
+.title-slide-final tfoot,
+.title-slide-final tr:nth-child(even) { background: none; }
+
+/*~~~~~~~~~~~~~~~~~~~~*/
+/* Global adjustments */
+/*~~~~~~~~~~~~~~~~~~~~*/
+
+/* ru blockquote */
+ru-blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: solid 10px #cc0033;
+  background-color: #818181;
+  padding: 1em;
+  color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* leave this alone */
+@page { margin: 0; }
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
